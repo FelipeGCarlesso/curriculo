@@ -1,0 +1,148 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* usamos aqui o tipo de familia da fonte para alterar na pagina toda */
+}
+.body{
+    background-color: rgb(0, 136, 255);
+    font-family: monospace;
+}
+.container{
+    width: 60%;
+    height: 1000px;
+    border: 1px solid;
+}
+.left{
+    width: 50%;
+    height: 1250px;
+    background-color: rgb(0, 0, 0); /* alteraçao de cor atraves da classe*/
+    float: left;
+    color: aliceblue;
+    padding: 50px; /* usado para adicionar espaçamentos ao layout*/
+    font-size: monospace;
+
+}
+.space{
+    font-size: monospace;
+}
+
+.profile img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%; 
+    border: 8px solid rgb(75, 0, 82); /* borda solida de tamanho 5 pixels e cor branca ultilizada para decorar a volta da foto de perfil*/
+    display: block;
+    margin: 20px auto;
+}
+.profile{
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 600; /* aqui ultilizamos um peso de 600 no h1 do left.*/
+}
+.profile h2{
+    font-style: monospace; /* aqui ultilizamos o estilo da font italic para as classes acima. */
+    font-weight: 400;
+    color: rgb(75, 0, 82);
+    margin: 12px 0;
+}
+.educ h2{
+    font-style: monospace;
+    font-weight: 400;
+    margin-top: 30px;
+    color: rgb(75, 0, 82);
+    margin-bottom: 10px;
+    
+    
+}
+.educ h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px; /* aqui ultilizamos o tamanho de 16 pixels no hr da class educ*/
+    margin-top: 8px;
+    
+}
+
+
+
+.container2{
+    width: 60%;
+    height: 1000px;
+    border: 1px solid;
+    text-decoration: underline; /* texto sublinhado */
+
+
+}
+
+.box-2{
+    width: 50%;
+    height: 1250px;
+    background-color: rgb(75, 0, 82);
+    color:rgb(0, 0, 0);
+    padding: 50px;
+    float: right;
+}
+.negrito{
+    font-weight: bold;
+}
+.experiencia h2{
+    margin-bottom: 12px;
+}
+
+
+.habilidades h2{
+    margin-bottom: 12px;
+}
+.contato h2{
+    font-style: monospace;
+    font-weight: 400;
+    margin-top: 30px;
+    color: rgb(75, 0, 82);
+    margin-bottom: 10px;
+}
+.experiencia li{
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+}
+.habilidades li{
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+
+}
+
+.contato i{
+    color: rgb(75, 0, 82);
+}
+.experiencia p{
+    color:rgb(255, 255, 255);
+}
+.experiencia hr{
+    margin:16px 0;
+    margin-left: -40px;
+}
+.habilidades hr{
+    margin:16px 0;
+    margin-left: -40px;
+}
+.habilidades h4{
+    font-style: monospace;
+    font-weight: 400;
+    margin-bottom: 10px;  /* margin buttom ultilizado para dar espaçamento pra baixo do elemento*/
+}
+.habilidades ul{
+    margin-bottom: 30px; /* margin left ultilizado para dar espaçamento para esquerda do elemento*/
+}
+.icone{
+    width: 23px;
+    height: 23px;
+         /* margin top ultilizado para dar espaçamento pra cima do elemento*/
+}
+.plinio{
+    font-style: monospace;
+    font-weight: auto;
+    color: rgb(0, 0, 0);
+    margin: 12px 0;
+    font-size: 17px;
+}
